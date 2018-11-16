@@ -1,0 +1,201 @@
+body {
+	background-image: url(../OVI/Imagenes/Fondo.jpg);
+	width: 100% ;
+	height: 100% ;
+	backgroun-repeat: no-repeat;
+}
+ 
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+li.menu{
+	font-size: 14px;
+}
+
+nav {
+	float: right;
+}
+ 
+nav ul li {
+	display: inline-block;
+	margin:0px 2px;
+}
+ 
+nav ul li a {
+	display: block;
+	background: #E0E6F8;
+	color: #037E8C;
+	padding:10px 6px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+ 
+nav ul li a:hover {
+	color: #fff;
+	background: #F24C27;
+}
+
+.modal-title{
+	text-align: center;
+	font-size: 20px;
+	color: #0431B4;
+}
+
+.estilo {
+	text-align: center;
+	font-size: 30px;
+	color: #0431B4;
+}
+
+.estilo1{
+	color:#09044D;
+	margin-left: 6em;
+  	margin-right: 5em;
+  	font-size: 25px;
+}
+.estilo2{
+	font-weight: bolder;
+	font-size: 40px;
+	margin-top: 15px;
+}
+.estilo3{
+	margin-top: 60px;
+}
+
+.estilo5{
+	color:#09044D;
+	font-size: 20px;
+	font-weight: bold;
+}
+.estilo6{
+	color:#DDB70F;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3{
+	font: 100% sans-serif;
+	margin-right: 10em;
+	color: #0B0B3B;
+}
+
+.destacado {  
+	margin-left: 11em;
+  	margin-right: 10em;
+  	font-size: 13px;
+  	font-weight: normal;  	
+}
+.container .col-md-10{
+	margin-top: 50px;
+	float: right;
+}
+
+.container1 .col-md-8{
+	margin-left: 100px;
+	margin-top: 50px;
+	float: right;
+}
+
+.container2 .col-md-8{
+	margin-left: 10em;
+	margin-right: 10em;
+}
+.estandares{
+	color: #FF4000;
+	font-family: "Homer Simpson", cursive;
+	font-size: 20px;
+	ma
+}
+.tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.im {max-width:100%; }
+    
+.thumbnails li> .imagenes .caption { 
+    background:#E4C32F !important; 
+    padding:10px
+}
+
+ul.thumbnails { 
+    margin-bottom: 0px;
+}
+
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+li { list-style-type:none;}
+
+/*Fundamnetos*/
+div.bhoechie-tab-container{
+  z-index: 50;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #FF8000;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
